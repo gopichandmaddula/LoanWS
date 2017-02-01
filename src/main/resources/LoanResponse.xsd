@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/LoanResponse" xmlns:tns="http://www.example.org/LoanResponse" elementFormDefault="qualified">
+
+    <complexType name="LoanResponse">
+    	<sequence>
+    		<element name="eligibilityCode" type="string"></element>
+    		<element name="eligibilityResponse" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="LoanResponse" type="tns:LoanResponse"></element>
+</schema>

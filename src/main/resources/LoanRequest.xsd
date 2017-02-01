@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/LoanRequest" xmlns:tns="http://www.example.org/LoanRequest" elementFormDefault="qualified">
+
+    <complexType name="LoanRequest">
+    	<sequence>
+    		<element name="amount" type="float"></element>
+    		<element name="tenure" type="date"></element>
+    		<element name="annualsalary" type="float"></element>
+    		<element name="dob" type="date"></element>
+    		<element name="gender" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <element name="LoanRequest" type="tns:LoanRequest"></element>
+</schema>
